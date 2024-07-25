@@ -1,7 +1,9 @@
 # How to Install Zabbix
 
 wget https://repo.zabbix.com/zabbix/4.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_4.0-3+xenial_all.deb
+
 sudo dpkg -i zabbix-release_4.0-3+xenial_all.deb
+
 apt-get install zabbix-agent 
 
 ## Configure zabbix_agentd.conf 
